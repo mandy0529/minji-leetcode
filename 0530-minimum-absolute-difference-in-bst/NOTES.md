@@ -66,7 +66,7 @@ return minimumDifference;
 ```
 - 최소 절대 차이인 minDiff 값을 반환
 - 
-## 4. 결과
+## 3. 결과
 
 ```
 var getMinimumDifference = function(root) {
@@ -94,8 +94,7 @@ var getMinimumDifference = function(root) {
 };
 ```
 
-## 5. solution 본 후, 회고
-#### 1. 회고
+## 4. solution 본 후, 회고
 - 이 코드는 중위 순회를 활용하여 문제를 해결하는 빠른 방법이다.
 - 그러나 배열 result에 중위 순회 결과를 저장하므로 공간 복잡도가 높아진다.
 - 만약 공간 사용을 최소화하고자 한다면, 이전에 제시한 방법 중 하나를 사용하는 것이 더 좋을 수 있을 것 같다.
